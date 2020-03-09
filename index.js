@@ -205,6 +205,10 @@
     console.log(0 || 0);
 
     //------------------------------------------
+    console.log(true && false || false && false);
+    console.log(false && false || true && true);
+    console.log(true && false || true && true);
+
     
 
 
