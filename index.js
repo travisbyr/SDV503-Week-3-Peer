@@ -57,5 +57,19 @@ console.log(10 <= 5) //less than or equal too
 console.log(10 >= 5)//Greater than or equal too
 
 
-console.log(10 == "10");//comparing a two different data types
+console.log(10 == "10");//evaluate two different data types and coverts them too the same value
 console.log(10 === "10");//Triple = is a strict equality. This means they need to be the same data type. This means both have to be a string etc
+
+console.log(10 == "5");
+console.log(10 == "10");
+console.log(10 != "5");
+console.log(10 != "10");
+console.log(10 < "5");
+console.log(10 < "10");
+console.log(10 > "5");
+console.log(10 > "10");
+console.log(10 <= "5");
+console.log(10 <= "10");
+console.log(10 >= "5");
+console.log(10 >= "10");
+
